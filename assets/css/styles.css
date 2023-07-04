@@ -1,52 +1,164 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    background-color: #8C8F70;
+    box-sizing: border-box;
+    text-align: left
+    
+    
 }
+body{
+    margin:15px 10px 15px 10px;
 
-body {
-    background-color: darkseagreen;
 }
 
 section {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    min-height: 30%;
 }
-
+nav {
+    width: 90%;
+    line-height: 50px;
+    font: 100px;
+    display: inline;
+    font-display: inline;
+    
+}
+h1 { 
+    background-color: #8C8F70;
+    
+}
+h2 { background-color: #8F707D;
+    margin-bottom: 20px;
+}
+h3 {
+    text-align: left;
+    display:inline-flexbox;
+    width: 100%;
+    height: 25%;
+    font-family: helvetica;
+    font-size: medium;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: small;
+    font-weight: lighter;
+    text-align: left;
+    justify-content:left;
+    
+}
+h5 {
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
 p {
     font-size: 20px;
-    line-height: 100px;
+    line-height: 10px;
+    background-color:#8F707D ;
+    margin-bottom: 20px;
+
+}
+
+a {
+    font-size: medium black;
+    font: 50px; 
+    font-size: larger;
+
+    justify-content: space-between;
+    text-decoration: none;
+    color:black;
+
+
 }
 
 img {
-    width: 20%;
-    display: inline;
+    width: 75%;
+    justify-content: space-between;
+    flex:auto;
+    align-items: self-end;
 }
-
-header{
-padding: auto;
-flex: 1 1 400px;
-flex-wrap: wrap;
-}
-
-.project{
-    flex:auto
-    flex-direction: row;
-    box-sizing: border-box;
-    border-radius: ;
-    border-style: ;
-}
-
-.project img{
-    padding: 20px;
+header {
+    display:flex;
     width: 100%;
-    
+    height: 25%;
+    font-family: Impact;
+    font-size: x-large;
+    justify-content:stretch;
+    margin:  10px 10px 10px 10px;
+    align-items: center;
 }
 
-@media screen and (max-width: 992px){
-width: 50%;
+.p1 {
+    font-size: x-large;
+    text-align: justify;
+    align-self: self-start;
+    flex-wrap: wrap;
+    border: auto;
+    padding: 20px;
+
 }
 
-@media screen and (max-width: 768px){
-width: 33%;
-} 
+.aboutme-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    line-height: 3rem;
+    text-align: left;
+    padding-right: 10px;
+}
 
+.allprojectscontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.project1 {
+    display: flexbox;
+}
 
+.project2, .project3, .project4 {
+  display: flexbox;
+}
+.aboutme-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    line-height: 3rem;
+    text-align: left;
+    padding-right: 10px;
+}
+.allprojectscontainer {
+display: flex;
+justify-content: space-between;
+margin: 10px;
+padding: 10px;
+}
+.project1 {
+    display: block;
+    display: grid;
+}
+.projectimage {
+min-height:300px;
+min-width: 600px;
+}
+
+.project2, .project3, .project4 {
+   flex-basis: 350%;
+   justify-content: space-around;
+   align-items: flex-end;
+}
+.profilepic {
+    border-radius: 10px 100px 120px;
+    width: 250px;
+    height: 250px;
+    max-height: 250px;
+    max-width: 250px;
+}
+.connect-section {
+    font-family: Helvetica;
+    font-weight: bold;
+    display: inline;
+    justify-content: space-between;
+}

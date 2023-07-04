@@ -2,50 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type=text/css href="assets/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="assets/css/styles.css">
     <title>Jose Posadas Portofolio Page</title>
 </head>
-    <header>
-        <h1>Jose Posadas</h1>
-    </header>
-    <div>
-    <nav>
-        <li> <a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#connect">Connect</a></li>
-      
-    </nav>
-    </div>
-</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="nav">
+                <header class="header">
+                    <section>
+                        <a href="#about" type="text">About</a>
+                    </section>
+                    <section>
+                        <a href="#work" type="text">Work</a>
+                    </section>
+                    <section>
+                        <a href="#connect" type="text">Connect</a>
+                    </section>
+                </header>
 
-<main>
-    <h2>About</h2>
-    <header>
-    <p1>A recent transplant to SW Florida, going through the UC Davis full stack bootcamp.
-        I have spent the last ten years in the Specialty coffee industry and I am now beggining my journey to become a developer.
-    
-    </p1>
-    
-    <section><h2>Work</h2>
-     <img src=".assets/images/placeholder-846x643.jpg"
-        alt="placeholder image"/>
-        <ul><a href="#">First application</a></ul>
-        <img/>
-        <ul><a href="#">Second</a></ul>
-        <img/>
-        <ul><a href="#">Third</a></ul>
-        <img/>
-        <ul><a href="#">Fourth</a></ul>
-    
-    </section>
-    <section>
-    <h2><a>Connect</a></h2>
-    
+            </nav>
+            <h1>Jose Posadas</h1>
+        </header>
+        
+        <section class="section" id="about">
+            <h2 class="h2"  type="text">About</h2>
+           <section class="aboutme-section"> 
+            <p1 class="p1">
+            Hi!, I'm a web development student based in South West Florida. 
+            </p1>
+            <spacer class="spacer"></spacer>
+            <img class="profilepic" alt="my profile photo" src="assets/images/profile-pic.png">
+        </section>
+        </section>
 
+        <section class="section" id="Work">
+            <h2 class="h2" type="text">Work</h2>
+            <section class="allprojectscontainer">
+                <section class="project1">
+                    <a href="#content1"><img src="assets/images/dummy_600x400_white_708F86_placeholder.png" alt="placeholer image large"></a>
+                    <h3>Project 1</h3>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc. Adipiscing elit pellentesque habitant morbi tristique. Ornare arcu odio ut sem.
+                    </h4>
+                
+                </section>
+                <div>
+                    <section class="content2">
+                    
+                    <a href="#content2"><img src="assets/images/dummy_400x400_white_708F86_placeholder.png" alt="placeholder image small"></a>
+                    <h3>Project 2</h3>
+                    </section>
+                    <section class="content3">
+                      <a href="#content3"><img src="assets/images/dummy_400x400_white_708F86_placeholder.png" alt="placeholder image small"></a>
+                        <h3>Project 3</h3>
+                    </section>
+                    <section class="content4">
+                    <a href="#"><img src="assets/images/dummy_400x400_white_708F86_placeholder.png" alt="placeholder image small"></a>
+                    <h3>Project 4</h3>
+                </div>
+            </section>
+        </section>
 
-
-
-</header>
-</main>
+        <section class="connect-section" id="connect">
+            <h2>Connect</h2>
+            <section>
+                <a href="mailto:posadas79@gmail.com"><ol>email me</ol></a>
+            </section>
+          
+            <section>
+                <a href="https://github.com/Nozerone"><ol>my github</ol></a>
+            </section>
+        </section>    
+    </main>
+    <footer>
+        <h5>
+            & copy nozerone 2023
+        </h5>
+    </footer>
+</body>
 </html>
